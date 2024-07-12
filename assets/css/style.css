@@ -1,0 +1,25 @@
+.navbar-brand img {
+    width: 50px;
+}
+
+body {
+    height: 1500px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.767));
+    position: absolute;
+}
