@@ -23,3 +23,9 @@ main {
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.767));
     position: absolute;
 }
+
+/* Coffee Cards */
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
