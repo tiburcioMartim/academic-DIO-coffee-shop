@@ -2,6 +2,10 @@
     width: 50px;
 }
 
+main {
+    margin-top: 5rem;
+}
+
 .carousel-item {
     height: 500px;
 }
